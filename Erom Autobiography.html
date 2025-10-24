@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Autobiography of Erom T. Sixta</title>
+  <style>
+    body {
+      background-color: #f4f4f4;
+      color: #222;
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    header, section, footer {
+      background-color: white;
+      padding: 10px;
+      border-radius: 5px;
+      margin-bottom: 15px;
+    }
+    h1, h2 {
+      color: #003366;
+    }
+    /* Layout for About Me + Achievements side by side */
+    .flex-container {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+    .flex-item {
+      flex: 1;
+      min-width: 280px;
+    }
+    /* Center the Education section */
+    #education {
+      width: 60%;
+      margin: 0 auto;
+      text-align: center;
+    }
+    #education ul {
+      list-style-position: inside;
+      text-align: left;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Erom T. Sixta's Autobiography</h1>
+    <img src="c:\Users\Dell\Downloads\Erom.jpg" alt="Erom T. Sixta" style="width: 150px; height: 150px; object-fit: cover;">
+  </header>
+
+  <div class="flex-container">
+    <section id="bio" class="flex-item">
+      <h2>About Me</h2>
+      <aside id="quick-info">
+        <h3>Quick Info</h3>
+        <p><strong>Location:</strong> Datag, Buagsong Cordova</p>
+        <p><strong>School:</strong> Lapu-Lapu City College</p>
+        <p><strong>Age:</strong> 25</p>
+        <p><strong>Father's Name:</strong> Jaime T. Sixta</p>
+        <p><strong>Mother's Name:</strong> Nenith T. Sixta</p>
+      </aside>
+    </section>
+
+    <section id="achievements" class="flex-item">
+      <h2>Hobbies</h2>
+      <ul>
+        <li>Chill ride around Lapu-lapu with my bike</li>
+        <li>Love to play games</li>
+        <li>Spending time watching random youtube videos or movies in Netflix</li>
+      </ul>
+    </section>
+  </div>
+
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li>ELEMENTARY GRADUATED 2011–2012 at <b>San Roque Child Development School</b></li>
+      <li>ALS GRADUATE FROM THE YEAR 2018 to 2019</li>
+      <li>SENIOR HIGH SCHOOL 2020–2021 at <b>Cordovoa National High-school</b></li>
+      <li>COLLEGE–PRESENT AT <b>LAPU-LAPU CITY COLLEGE</b></li>
+    </ul>
+  </section>
+
+</body>
+</html>
